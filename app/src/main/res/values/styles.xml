@@ -3,32 +3,28 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
     </style>
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="TitleStyle">
+    <style name="PrimaryStyle">
 
         <item name="android:textSize">24sp</item>
         <item name="android:paddingTop">24dp</item>
         <item name="android:paddingBottom">16dp</item>
         <item name="android:paddingRight">16dp</item>
         <item name="android:paddingLeft">16dp</item>
+        <item name="android:textColor">@color/primaryText</item>
 
     </style>
 
-    <style name="SubtitleStyle">
-        <item name="android:textSize">14sp</item>
+    <style name="CityInfoTitleStyle" parent="PrimaryStyle"/>
+
+    <style name="SecondaryStyle">
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
         <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:textColor">@color/secondaryText</item>
     </style>
 
     <style name="TemperatureInfoStyle">
@@ -36,6 +32,24 @@
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
         <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">@color/primaryText</item>
     </style>
+
+    <style name="DayInfoStyle" parent="SecondaryStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SpeedAndMoistureStyle" parent="SecondaryStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DayDescription">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+
+
 
 </resources>
