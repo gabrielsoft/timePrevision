@@ -6,48 +6,7 @@
         <item name="android:windowActionBar">false</item>
     </style>
 
-    <style name="PrimaryStyle">
 
-        <item name="android:textSize">24sp</item>
-        <item name="android:paddingTop">24dp</item>
-        <item name="android:paddingBottom">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:textColor">@color/primaryText</item>
-
-    </style>
-
-    <style name="CityInfoTitleStyle" parent="PrimaryStyle"/>
-
-    <style name="SecondaryStyle">
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:paddingBottom">16dp</item>
-        <item name="android:paddingTop">24dp</item>
-        <item name="android:textColor">@color/secondaryText</item>
-    </style>
-
-    <style name="TemperatureInfoStyle">
-        <item name="android:textSize">60sp</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:paddingBottom">16dp</item>
-        <item name="android:textColor">@color/primaryText</item>
-    </style>
-
-    <style name="DayInfoStyle" parent="SecondaryStyle">
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="SpeedAndMoistureStyle" parent="SecondaryStyle">
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="DayDescription">
-        <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:textColor">@color/primaryText</item>
-        <item name="android:textSize">28sp</item>
-    </style>
 
 
 
